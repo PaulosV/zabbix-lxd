@@ -129,7 +129,7 @@ int     zbx_lxd_dir_detect()
         zabbix_log(LOG_LEVEL_DEBUG, "In zbx_lxd_dir_detect()");
 
         char *drivers[] = {
-            "lxc/",           // LXC
+            "lxc.payload/",           // LXC
             ""
         }, **tdriver;
         char path[512];
